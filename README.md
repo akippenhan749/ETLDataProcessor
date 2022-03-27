@@ -4,11 +4,22 @@
 ------------------------------------------
 
 This ETL data processor can be run by entering the following in a terminal environment:
+
 `python ETLDataProcessor.py <data source> <output format>`
+
 `<data source>` is the filename or url of the data source to read from
+
 `<output format>` is the desired output format and must be one of `CSV`, `JSON`, `SQL` or `XLSX`
 
-This program uses the following modules: `OS` (for filename reading), `Pandas` (for data manipulation), `SQLAlchemy` (for converting to a SQL database) and `SYS` (for command line arguments).
+This program uses the following modules:
+
+`OS` - for filename reading,
+
+`Pandas` - for data manipulation,
+
+`SQLAlchemy` - for converting to a SQL database
+
+`SYS` - for command line arguments.
 
 </a>Description
 ------------------------------------------
